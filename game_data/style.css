@@ -1,0 +1,44 @@
+@font-face {
+  font-family: font1;
+  src: url(fonts/font1.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(fonts/font2.otf);
+}
+body {background-color: #123; color: #000; margin: 0; padding: 0; overflow: hidden;}
+#canvas, #canvas:focus { outline: none;background-color: #000;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 700px;
+  color: :#000;
+  text-align: center;
+  box-shadow: 5px 5px 5px #000;
+  border-radius: 15px;
+}
+
+.modal input[type=email]{
+  font-size: 14px;
+  width: 250px;
+}
